@@ -1,0 +1,79 @@
+.a-propos-main {
+    width: 75%;
+    margin: auto;
+}
+/* --------------------------------------------------------------------------- */
+.robbie-apropos {
+    width: 1200px; 
+    height: 388px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+
+    background-image: url("../images/robbie-lens.png");
+    background-size: 15%;
+    background-repeat: repeat;
+    background-repeat: space;
+    gap: 15px;
+
+    box-shadow:
+    160px 84px 30px #2c2e51;
+}
+/* --------------------------------------------------------------------------- */
+div h2{
+    padding: 5%;
+    margin-right: 50%;
+
+}
+
+.texte-a-propos{
+
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 50px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+div.services h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 45%;
+    padding: 5%;
+
+}
+
+div.services ul {
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+section.cadre-a-propos {
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+    border-width: 10%;
+}
+
+main a{
+    color: white;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 43%;
+    margin-left: 43%;
+    gap: 10%;
+}

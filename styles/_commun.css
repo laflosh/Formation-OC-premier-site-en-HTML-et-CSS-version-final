@@ -1,0 +1,118 @@
+
+h1{
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #F9F8FF;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+}
+
+
+a {
+    font-size: 1em;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    color: #242424;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    background-color: #1F2039;
+}
+
+section{
+    padding: 80px;
+}
+
+main {
+    min-height: 500px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 45px;
+}
+
+nav a{
+    margin : 0 40px;
+}
+
+header,
+footer {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+header {
+
+}
+
+.trigger-home-page{
+    width: 83px;
+    height: 45px;
+
+    display: block;
+    float: left;
+
+    background : no-repeat url("../images/logo.png");
+
+}
+
+#trigger-home-page-header{
+
+}
+
+#trigger-home-page-footer{
+    width : 59px;
+    height : 32px;
+    background-size: contain;
+}
+
+#trigger-home-page:after{
+    float: none;
+}
+
+footer img {
+    height : 32px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.bt-arrondi{
+    display: block;
+    background: linear-gradient(#8E86B5,#ACAEED );
+    border-radius: 25px;
+    padding : 20px 25px;
+    text-align: center;
+
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size : 1em;
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+}
